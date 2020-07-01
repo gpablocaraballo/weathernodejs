@@ -1,7 +1,7 @@
 var Environment = require( '../utilities/environtment'  );
 
 //PONGA SU TOKEN DE https://openweathermap.org/api AQUI ABAJO
-var open_weather_token = '93f5a07af1188c18f5265bf49b432f7e';
+var open_weather_token = '';
 
 function getToken(){
     //token could change base on the environment
