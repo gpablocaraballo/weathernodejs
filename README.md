@@ -21,6 +21,10 @@ http://localhost:8080/v1/forecast/3435907
 List of all countries
 http://bulk.openweathermap.org/sample/
 
+Icons:
+https://openweathermap.org/weather-conditions
+http://openweathermap.org/img/wn/10d@2x.png
+
 To run parallel instances you can use pm2 (optional)
 https://www.npmjs.com/package/pm2
 npm install pm2 -g

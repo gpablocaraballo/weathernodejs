@@ -29,7 +29,7 @@ const getRequest = async (city,salida) => {
             backurl = url + "?lat=" + lat + "&lon=" + lon;
         })
     }
-    backurl += "&APPID="+Util.getToken();
+    backurl += "&lang=es&APPID="+Util.getToken();
 
     console.log('getRequest',backurl);
 
