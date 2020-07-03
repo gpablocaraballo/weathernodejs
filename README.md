@@ -1,6 +1,25 @@
-#weathernodejs
+Weather API hecho en nodejs basado en https://openweathermap.org/api
+Gabriel Pablo Caraballo
 
-Weather API for nodejs based on https://openweathermap.org/api
+Se realizo la solución frontend y backend completa.
+
+frontend en react
+https://github.com/developergit001/weather-react.git
+
+Este proyecto:
+https://github.com/developergit001/weathernodejs.git
+
+#Para correr la app
+node nodeweather-api.js
+
+#Testing: Los casos de prueba se hicieron completamente en react para unificar el lugar y tipos de prueba.
+
+#Datos varios:
+Este backend de node estaria corriendo en http://localhost:8080 por defecto.
+Se puede cambiar dicho puerto en el archivo nodeweather-api.js PERO tener en cuenta que react espera el port 8080 del back.
+
+Token openweatherapi:
+Se puede cambiar el mismo en el archivo utilities\util.js
 
 Current GEO Lat, Lon
 http://localhost:8080/v1/location
@@ -25,17 +44,3 @@ Icons:
 https://openweathermap.org/weather-conditions
 http://openweathermap.org/img/wn/10d@2x.png
 
-To run parallel instances you can use pm2 (optional)
-https://www.npmjs.com/package/pm2
-npm install pm2 -g
-
-Basics:
-pm2 start nodeweather-api.js
-pm2 list
-pm2 stop     nodejwt-api
-pm2 restart  nodejwt-api
-pm2 delete   nodejwt-api
-
-
-Classic way. 
-node nodeweather-api.js
