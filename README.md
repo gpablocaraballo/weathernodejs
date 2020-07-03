@@ -1,6 +1,6 @@
-Weather API hecho en nodejs basado en https://openweathermap.org/api
+################################################################################################################################
 Gabriel Pablo Caraballo
-
+Weather API hecho en nodejs basado en https://openweathermap.org/api
 Se realizo la solución frontend y backend completa.
 
 frontend en react
@@ -8,12 +8,19 @@ https://github.com/developergit001/weather-react.git
 
 Este proyecto:
 https://github.com/developergit001/weathernodejs.git
+################################################################################################################################
 
+################################################################################################################################
 #Para correr la app
+npm install
 node nodeweather-api.js
+################################################################################################################################
 
+################################################################################################################################
 #Testing: Los casos de prueba se hicieron completamente en react para unificar el lugar y tipos de prueba.
+################################################################################################################################
 
+################################################################################################################################
 #Datos varios:
 Este backend de node estaria corriendo en http://localhost:8080 por defecto.
 Se puede cambiar dicho puerto en el archivo nodeweather-api.js PERO tener en cuenta que react espera el port 8080 del back.
@@ -43,4 +50,4 @@ http://bulk.openweathermap.org/sample/
 Icons:
 https://openweathermap.org/weather-conditions
 http://openweathermap.org/img/wn/10d@2x.png
-
+################################################################################################################################
