@@ -1,17 +1,17 @@
 ###########################################################################################################
 Gabriel Pablo Caraballo
-Weather API hecho en nodejs basado en https://openweathermap.org/api
-Se realizo la solución frontend y backend completa.
+Weather API done with nodejs using https://openweathermap.org/api
+This is the backend part, but its a full solution.
 
-frontend en react
+You can check the frontend with react
 https://github.com/developergit001/weather-react.git
 
-Este proyecto:
+Current nodejs project:
 https://github.com/developergit001/weathernodejs.git
 ###########################################################################################################
 
 ###########################################################################################################
-#Para installar y correr la app
+#To install and run the app
  
 npm install
 
@@ -19,16 +19,16 @@ node nodeweather-api.js
 ###########################################################################################################
 
 ###########################################################################################################
-#Testing: Los casos de prueba se hicieron completamente en react para unificar el lugar y tipos de prueba.
+#Testing: All use case (testing) are done in the frontend solution.
 ###########################################################################################################
 
 ###########################################################################################################
-#Datos varios:
-Este backend de node estaria corriendo en http://localhost:8080 por defecto.
-Se puede cambiar dicho puerto en el archivo nodeweather-api.js PERO tener en cuenta que react espera el port 8080 del back.
+#Comments:
+This backend is running in http://localhost:8080 by default
+You can change the port but you must know that the frontend expect the 8080 port.
 
 Token openweatherapi:
-Se puede cambiar el mismo en el archivo utilities\util.js
+You can put yours in utilities\util.js
 
 Current GEO Lat, Lon
 http://localhost:8080/v1/location
