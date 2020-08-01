@@ -1,55 +1,48 @@
-###########################################################################################################
-Gabriel Pablo Caraballo
-Weather API done with nodejs using https://openweathermap.org/api
-This is the backend part, but its a full solution.
+# Gabriel Pablo Caraballo
+_Weather API done with nodejs using https://openweathermap.org/api_
+_This is the backend part, but its a full solution._
 
-You can check the frontend with react
-https://github.com/developergit001/weather-react.git
+_You can check the frontend with react_
+_https://github.com/developergit001/weather-react.git_
 
-Current nodejs project:
-https://github.com/developergit001/weathernodejs.git
-###########################################################################################################
+_Current nodejs project:_
+_https://github.com/developergit001/weathernodejs.git_
 
-###########################################################################################################
-#To install and run the app
- 
+# To install and run the app
+``` 
 npm install
-
+```
+```
 node nodeweather-api.js
-###########################################################################################################
+```
 
-###########################################################################################################
-#Testing: All use case (testing) are done in the frontend solution.
-###########################################################################################################
+## Testing: All use case (testing) are done in the frontend solution.
+## Comments:
+_This backend is running in http://localhost:8080 by default
+You can change the port but you must know that the frontend expect the 8080 port._
 
-###########################################################################################################
-#Comments:
-This backend is running in http://localhost:8080 by default
-You can change the port but you must know that the frontend expect the 8080 port.
+_Token openweatherapi:_
+_You can put yours in utilities\util.js_
 
-Token openweatherapi:
-You can put yours in utilities\util.js
+_Current GEO Lat, Lon_
+_http://localhost:8080/v1/location_
 
-Current GEO Lat, Lon
-http://localhost:8080/v1/location
+_Current Weather for your geo location_
+_http://localhost:8080/v1/current_
 
-Current Weather for your geo location
-http://localhost:8080/v1/current
+_Current Weather for Argentina_
+_http://localhost:8080/v1/current/3435907_
 
-Current Weather for Argentina
-http://localhost:8080/v1/current/3435907
+_Next 5 days Weather for your geo location_
+_http://localhost:8080/v1/forecast_
 
-Next 5 days Weather for your geo location
-http://localhost:8080/v1/forecast
+_Next 5 days Weather for Argentina_
+_http://localhost:8080/v1/forecast/3435907_
 
-Next 5 days Weather for Argentina
-http://localhost:8080/v1/forecast/3435907
+_List of all countries_
+_http://bulk.openweathermap.org/sample/_
 
+_Icons:_
+_https://openweathermap.org/weather-conditions_
+_http://openweathermap.org/img/wn/10d@2x.png_
 
-List of all countries
-http://bulk.openweathermap.org/sample/
-
-Icons:
-https://openweathermap.org/weather-conditions
-http://openweathermap.org/img/wn/10d@2x.png
-###########################################################################################################
